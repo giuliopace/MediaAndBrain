@@ -1,0 +1,190 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+\bibliographystyle{plain}
+
+\title{Adaptation and Learning Neurally}
+
+\author{\IEEEauthorblockN{Giulio Pace}
+\IEEEauthorblockA{\textit{TUWien} \\
+\textit{11835706}\\
+Vienna, Austria \\
+giulio.pace93@gmail.com}
+\and
+\IEEEauthorblockN{David Penz}
+\IEEEauthorblockA{\textit{TUWien} \\
+\textit{11703497}\\
+Vienna, Austria \\
+e11703497@student.tuwien.ac.at}
+}
+
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+\begin{IEEEkeywords}
+	Intelligence, Artificial Intelligence, Consciousness model, Neural Network.
+\end{IEEEkeywords}
+
+\section{Introduction}
+	Intelligence, /ɪnˈtɛlɪdʒ(ə)ns/, late Middle English: via Old French from Latin intelligentia, from intelligere ‘understand’ \cite{a1}.
+
+	When searching for a universal definition of the word “Intelligence”, one might end up with many different meaning in a variety of different domains and research disciplines, not being able to tell whether intelligence is referring to the human ability of learning and understanding complex matter, being able to quickly adapt to new and challenging situations, the process of gathering information in a specific context, or the rather philosophical question of intelligent life. Modern online dictionaries, such as the Oxford Dictionary \cite{a1} or Cambridge Dictionary \cite{a2}, also present multiple definitions:
+
+	\begin{enumerate}
+		\item The ability to acquire and apply knowledge and skills
+		\item The ability to learn, understand, and make judgments or have opinions that are based on reason
+		\item The collection of information of military or political value
+		\item Secret information about the governments of other countries, especially enemy governments, or a group of people who collect and deal with this information
+	\end{enumerate}
+
+	Regardless whether intelligence is defined as a collection of secret information for political purpose, as the process of gathering said information, or as an ability of humans and non-humans to gain and use knowledge, intelligence is strongly connected and dependent on retrieving information given a specific context. Charles Spearman’s idea of the “g factor” (general intelligence factor) also tries to standardise the definition of intelligence by providing a general measurement metric for human performance on cognitive tasks \cite{a3}.
+	% MAYBE MORE ABOUT THIS HERE?
+
+	However, intelligence might not necessarily be seen as a single, general ability, but rather as several different abilities related to mental capabilities. Louis Thurstone, pioneer in psychometrics and psychophysics, disagreed with Spearman’s idea of a single factor to measure intelligence and proposed seven primary abilities \cite{a4}:
+
+	\begin{enumerate}
+		\item number facility;
+		\item word fluency;
+		\item visualizing;
+		\item memory;
+		\item perceptual speed;
+		\item induction;
+		\item verbal reasoning.
+	\end{enumerate}
+
+	As one can see, defining “Intelligence” has been subject to research and discussions of different opinions for a longer time. This paper will focus on creating a common understanding of the term “Intelligence” and its definitions throughout various research disciplines. Therefore, this paper will cover a review of scientific literature referring to intelligence in the fields of psychology (Section I) and neurology (Section II). Additionally, other research areas related to this topic will be listed as an overview (Section III)  in order to further enrich interdisciplinary connections and understanding.
+
+	Based on the review of definitions from different scientific areas, we want to identify what influence the term “Intelligence” has on our consciousness model (Section IV) and how it may relate to the various layers. As recent advances in the last decades put deep learning as a very promising method for artificial intelligence, we will look into its use within this field and how it might be further explored and developed.
+
+
+\section{Intelligence in the psychological literature}
+
+	Following from our introductory definitions revolving around whether intelligence should be seen as a single, interdisciplinary ability to perform any kind of cognitive tasks or as a set of multiple abilities, this chapter will focus on reviewing psychological literature related to the term.
+
+	Similarly to Louis Thurstone, many other psychologists and scientists working in the field of psychology refer to intelligence as a combination of cognitive abilities or functions required to survive, adapt or advance in a specific environment \cite{b1}. This seems to be related to the process of learning and adaptation, where an individual is acquiring new skills and knowledge in order to adapt its behaviour to overcome arising challenges in continuously changing environments and cultures. Focusing on how to acquire the needed information and how to process it accordingly, other literature could give more insight as intelligence might also be defined as:
+
+	\begin{itemize}
+		\item Sensor capacity
+		\item Capacity for perceptual recognition
+		\item Association
+		\item Imagination
+		\item Response \cite{b2}
+	\end{itemize}
+
+	Perception and processing of knowledge in that sense might not be sufficient, however, as others describe that there are several additional factors such as memory, sensation, judgement, and reasoning which have to be taken into account. All of the mentioned skills and abilities form a set of cognitive capabilities relying on retrieval of information, enabling the individual to excel in problem solving tasks, learning and successful adaptation in a wide range of different environments \cite{b3}. Also in \cite{b4}, the author relates to intelligence as the process of adjustment or adaptation, the ability to learn and perform abstract thinking, and problem solving in a wider sense. He further characterises the tasks by (1) difficulty, (2) complexity, (3) abstractness, (4) economy, (5) adaptedness to goal, (6) social value, and (7) emergence of originals.
+
+	In contrast to the concept of a variety of cognitive capacities, several other psychologists and authors tend more towards the idea of a general intelligence factor as we mentioned in section I. Some seem to abstract the definition of intelligence by generalising it to the ability of proper information processing in complex environments \cite{b5} or defining it as the core ability for information processing systems, which allow the individual to adapt with insufficient knowledge \cite{b6}. As the process of retrieving new information seem to be one of the core elements of intelligence, other literature describes the term as the resultant of said process rather than the activity itself \cite{b4}. This outcome is then not only dependent of retrieving knowledge, but also on acquisition, storing it in memory, combining and comparing, and using the gained knowledge in new problem contexts.
+
+	By further abstracting the idea of intelligence, it could also be seen as the major factor responsible for running all different types of cognitive tasks and performances, e.g. solving problems, reasoning and possessing knowledge of the real world. This factor will be described as a global concept inherited by an individual, which includes abilities such as thinking rationally and dealing with challenging environments \cite{b7}.
+
+	Generally speaking, the term “Intelligence” seems to be a highly discussed and researched topic within psychology as it creates fascination and raises philosophical questions related to the way humans act and think. Due to its complex nature, many different definitions can be found, describing intelligence as a general factor or defining multiple capabilities revolving around cognitive activities. By reviewing psychological literature mentioning the term “Intelligence”, a common understanding seems to be that information retrieval and processing of knowledge in complex contexts defines intelligence in its core.
+
+\section{Intelligence in neurology}
+
+	Intelligence is a central topic in neurology. Even though it appears to be impossible to measure intelligence just from a neurological point of view, during the years researchers managed to find a correlation between some parts of the brain and ingelligence. In particular, there were connections between intelligence and the volume of (1) the brain \cite{c1}, (2) grey matter \cite{c2}, (3) white matter \cite{c3}, (4) cortical thickness \cite{c2}, (5) cortical convolution \cite{c5} and (6) neural efficiency \cite{c6}.
+
+	\subsection{Brain volume}\label{BV}
+
+		Overall, brain dimension directly correlates with intelligence \cite{c7}. The scientific community have suspected a correlation for almost 150 years, but thanks to MRI is now possible to accurately measure brain volume as done by Pietschnig et al. \cite{c1}.
+		An incredibly high number of studies seem to agree on this correlation \cite{c8}, even if it appears in a different measure for males (0.25) and females (0.40) \cite{c9}.  Furthermore, it has been proven that the correlation strongly varies depending on the type of intelligence measured. \cite{c10}.
+		Of course brain volume is not the only factor to consider when measuring intelligence, or animals with very big brains like elephant would be more intelligent than humans.
+
+	\subsection{Grey matter}\label{GM}
+
+		Grey matter consist in neurons, neuropil (that includes dendrites, myelinated and unmyelinated axons), synapses and glial cells. \cite{c11}. In \cite{c2}, Narr K. L. et al. find a strong connection between intelligence and the volume of the perfrontal and posterior temporal cortex. As for brain volume, also for grey matter thickness and volume there are some differences between male and female subjects: in women, the correlation is stronger in the Broca's area and in the frontal lobes, while for men the interested areas are frontal and parietal lobes \cite{c12}.
+		Furthermore, it has been proved that green matter is strictly correlated with high intelligence during youth.  Children from the age of 5 up to the age of 17 that present a high volume of grey matter in the prefrontal cortex are more likely to score high scores in IQ tests \cite{c13}.
+
+	\subsection{White matter}\label{WM}
+
+		%% Still TODO
+
+	\subsection{Cortical thickness}\label{CT}
+
+		Ìnterestingly enough, during the first years of life a thick cortex is often negatively correlated to intelligence. \cite{ct1} After adolescence, though, there is a tendency inversion and cortical thickness is positively related to intelligence \cite{c2}.
+		Overall, it is believed that a steady growth in cortical thickness is a good indicator of intelligence in children and young people, especially in the 17-24 years-old gap \cite{ct1}.
+
+	\subsection{Cortical convolution}\label{CC}
+
+		During human evolution, our brain's surface evolved to increase the convolution. It has been made a strong case for it to correlate positively with intelligence and that this improvement could be strictly bonded with the development some very important cognitive ability \cite{cc1}.
+
+	\subsection{Neural efficiency}\label{NE}
+
+		During an experiment in 1988, it has been showed that when highly intelligent individuals perform a difficult task they show less brain activity that less intelligent ones \cite{c6}. The reason behind this apparently counterintuitive phenomenon could be that smarter people could block interferences in a better way and focus exclusively on the task \cite{ne1}
+
+
+\section{Intelligence in other areas of science}
+
+
+\section{How Intelligence is related to the model of consciousness}
+
+
+\section{Intelligence in deep neural networks}
+
+
+\section{Conclusion}
+
+
+\begin{thebibliography}{00}
+%chapter 1
+
+\bibitem{a1} Oxford Dictionaries: Intelligence (2019, May 27), retrieved from: https://en.oxforddictionaries.com/definition/intelligence
+\bibitem{a2} Cambridge Dictionary: Intelligence (2019, May 27), retrieved from: https://dictionary.cambridge.org/de/worterbuch/englisch/intelligence
+\bibitem{a3} ... %TODO missing reference
+\bibitem{a4} Thurstone, L. L. (1936), A new conception of intelligence, Educational Record, vol. 17, pp. 441-450
+
+%chapter 2
+
+\bibitem{b1} A. Anastasi (1992), What counselors should know about the use and interpretation of psychological tests, Journal of Counseling and Development, vol. 70, issue 5, pp. 610–615
+\bibitem{b2} R. J. Sternberg (2000), Handbook of Intelligence, Cambridge University Press
+\bibitem{b3} D. K. Simonton (2003), An interview with Dr. Simonton, in: Human intelligence: Historical influences, current controversies
+\bibitem{b4} M. Hutter, S. Legg (2007), A Collection of Definitions of Intelligence
+\bibitem{b5} H. Nakashima (1999), AI as complex information processing. Minds and machines, vol. 9, pp. 57–80
+\bibitem{b6} P. Wang (1995), On the working definition of intelligence, Indiana University
+\bibitem{b7} D. Wechsler (1958), The measurement and appraisal of adult intelligence, Williams \& Wilkinds, 4th edition
+
+%chapter 3
+
+\bibitem{c1} Pietschnig J, Penke L, Wicherts JM, Zeiler M, Voracek M (2015). ``Meta-analysis of associations between human brain volume and intelligence differences: How strong are they and what do they mean?''. Neuroscience \& Biobehavioral Reviews. 57: 411–32.
+\bibitem{c2} Narr, K. L.; Woods, R. P.; Thompson, P. M.; Szeszko, P.; Robinson, D.; Dimtcheva, T.; Bilder, R. M. (2007). ``Relationships between IQ and regional cortical gray matter thickness in healthy adults''. Cerebral Cortex. 17 (9): 2163–2171.
+\bibitem{c3} Gur, R. C.; Turetsky, B. I.; Matsui, M.; Yan, M.; Bilker, W.; Hughett, P.; Gur, R. E. (1999). ``Sex differences in brain gray and white matter in healthy young adults: correlations with cognitive performance''. Journal of Neuroscience. 19 (10): 4065–4072.
+\bibitem{c4}
+\bibitem{c5} Luders, Eileen; Narr, Katherine L.; Thompson, Paul M.; Toga, Arthur W. (2009-03-01). ``Neuroanatomical Correlates of Intelligence''. Intelligence. 37 (2): 156–163.
+\bibitem{c6} Haier, R. J.; Siegel, B. V.; Nuechterlein, K. H.; Hazlett, E.; Wu, J. C.; Paek, J.; Buchsbaum, M. S. (1988). ``Cortical glucose metabolic rate correlates of abstract reasoning and attention studied with positron emission tomography''. Intelligence. 12 (2): 199–217.
+\bibitem{c7} Luders, E.; Narr, K. L.; Thompson, P. M.; Toga, A. W. (2009). ``Neuroanatomical correlates of intelligence''. Intelligence. 2009 Mar 1;37(2):156-163.   %% <------------------- IMPORTANT ONE --------------
+\bibitem{c8} Gray, J. R.; Thompson, P. M. (2004). ``Neurobiology of intelligence: science and ethics''. Nature Reviews Neuroscience. 5 (6): 471–482.
+\bibitem{c9} McDaniel, M. A. (2005). ``Big-brained people are smarter: A meta-analysis of the relationship between in vivo brain volume and intelligence''. Intelligence. 33 (4): 337–346.
+\bibitem{c10} Witelson, S. F.; Beresh, H.; Kigar, D. L. (2006). ``Intelligence and brain size in 100 postmortem brains: sex, lateralization and age factors''. Brain. 129 (2): 386–398.
+\bibitem{c11} Purves D, Augustine GJ, Fitzpatrick D, Hall WC, LaMantia AS, McNamara JO, White LE (2008). Neuroscience (4th ed.). Sinauer Associates.
+\bibitem{c12} Haier, R. J.; Jung, R. E.; Yeo, R. A.; Head, K.; Alkire, M. T. (2005). ``The neuroanatomy of general intelligence: sex matters''. NeuroImage. 25 (1): 320–327.
+\bibitem{c13} Reiss, A. L.; Abrams, M. T.; Singer, H. S.; Ross, J. L.; Denckla, M. B. (1996). ``Brain development, gender and IQ in children A volumetric imaging study''. Brain. 119 (5): 1763–1774.
+
+\bibitem{ct1}Shaw, P.; Greenstein, D.; Lerch, J.; Clasen, L.; Lenroot, R.; Gogtay, N.; Giedd, J. (2006). ``Intellectual ability and cortical development in children and adolescents''. Nature. 440 (7084): 676–679.
+
+\bibitem{cc1} Luders, Eileen; Narr, Katherine L.; Thompson, Paul M.; Toga, Arthur W. (2009-03-01). ``Neuroanatomical Correlates of Intelligence''. Intelligence. 37 (2): 156–163.
+
+\bibitem{ne1} Gray, J. R.; Chabris, C. F.; Braver, T. S. (2003). ``Neural mechanisms of general fluid intelligence''. Nature Neuroscience. 6 (3): 316–322.
+\bibitem{c}
+%chapter 4
+
+%chapter 5
+
+%chapter 6
+
+%chapter 7
+
+\end{thebibliography}
+\vspace{12pt}
+
+\end{document}
